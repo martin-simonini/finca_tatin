@@ -1,0 +1,123 @@
+body{
+	background: url(../../includes/wood.PNG) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body, html {
+          height: 100%;
+          margin: 0;
+          -webkit-font-smoothing: antialiased;
+          font-weight: 100;
+          text-align: center;
+          font-family: helvetica;
+      }
+       
+      .tabs input[type=radio] {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+      .tabs {
+        width: 85%;
+        float: none;
+        list-style: none;
+        position: relative;
+        padding: 0;
+        margin: 75px auto;
+      }
+      .tabs li{
+        float: left;
+		width: 24%;
+		padding: 2px;
+      }
+      .tabs label {
+          display: block;
+          padding: 10px 20px;
+          border-radius: 2px 2px 0 0;         
+          font-size: 24px;
+          font-weight: normal;
+          font-family: 'Lily Script One', helveti;
+          background: rgba(255,255,255,0.2);
+          cursor: pointer;
+          position: relative;
+          top: 3px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+      }
+      .tabs label:hover {
+        background: rgba(255,255,255,0.5);
+        top: 0;
+      }
+       
+      [id^=tab]:checked + label {
+        background: rgb(255,255,128);
+        top: 0;
+      }
+       
+      [id^=tab]:checked ~ [id^=tab-content] {
+          display: block;
+      }
+      .tab-content{
+        z-index: 2;
+        display: none;
+        text-align: left;
+        width: 100%;
+        font-size: 20px;
+        line-height: 140%;
+        padding-top: 10px;
+        background: rgba(255,255,128,0.0);
+        padding: 15px;
+        position: absolute;
+        top: 53px;
+        left: 0;
+        box-sizing: border-box;
+        -webkit-animation-duration: 0.5s;
+        -o-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+      }
+	  
+
+
+#home{
+
+	width: 90%;
+	height: 100%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.menu > a{
+	color: yellow;
+}
+
+.bird-img{
+	width: 100%;
+}
+.img-left{margin-left: 10%;}
+.img-right{margin-right: auto;}
+
+
+.text{
+	width: 100%;
+	font-family: "Tempus Sans ITC";
+	color: white;
+	font-size: 1.5em;
+	float: center;
+	text-align: center;
+	
+}
+.text > h5{
+	font-size: 2em;
+	color: yellow;
+}
+
+
+

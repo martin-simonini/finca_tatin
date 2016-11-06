@@ -1,0 +1,124 @@
+body{
+	background: url(../../includes/wood.PNG) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body, html {
+          height: 100%;
+		  width: 100%;
+          margin: 0;
+          -webkit-font-smoothing: antialiased;
+          font-weight: 100;
+          text-align: center;
+          font-family: helvetica;
+      }
+       
+      .tabs input[type=radio] {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+      .tabs {
+        width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+        float: none;
+        list-style: none;
+        position: relative;
+        padding: 0;
+        margin: 75px auto;
+      }
+      .tabs li{
+        float: left;
+      }
+      .tabs label {
+          display: block;
+          padding: 10px 20px;
+          border-radius: 2px 2px 0 0;         
+          font-size: 24px;
+          font-weight: normal;
+          font-family: 'Lily Script One', helveti;
+          background: rgba(255,255,255,0.2);
+          cursor: pointer;
+          position: relative;
+          top: 3px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+		  margin-left: 3px;
+      }
+      .tabs label:hover {
+        background: rgba(255,255,255,0.5);
+        top: 0;
+      }
+       
+      [id^=tab]:checked + label {
+        background: rgb(255,255,128);
+        top: 0;
+      }
+       
+      [id^=tab]:checked ~ [id^=tab-content] {
+          display: block;
+      }
+      .tab-content{
+        z-index: 2;
+        display: none;
+        text-align: left;
+        width: 100%;
+        font-size: 20px;
+        line-height: 140%;
+        padding-top: 10px;
+        background: rgba(255,255,128,0.0);
+        padding: 15px;
+        position: absolute;
+        top: 53px;
+        left: 0;
+        box-sizing: border-box;
+        -webkit-animation-duration: 0.5s;
+        -o-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+      }
+	  
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 5px solid #6B8E23;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  font-family: "Tempus Sans ITC";
+  font-size: 30px;
+}
+
+th{
+	background: #6B8E23;
+}
+
+table{
+	margin-bottom: 50px;
+}
+
+h1{
+	text-align: center;
+	color: rgb(255,255,128);
+	font-size: 50px;
+	font-family: "Tempus Sans ITC";
+}
+
+p{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: "Tempus Sans ITC";
+	line-height: 115%;
+}
+
+.tit{margin: 5px;}

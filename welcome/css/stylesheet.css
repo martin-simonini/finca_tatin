@@ -1,0 +1,31 @@
+body{
+	background: url(../../includes/wood.PNG) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.opener{
+	position: relative;
+	width: 100%;
+}
+
+.docks{
+	width: 100%;
+}
+
+.intro{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+	background-color: #138808;
+	padding: 10px;
+}
+
+p{
+	color: white;
+	font-family: Tempus Sans ITC;
+	font-size: 1.75em;
+}
+

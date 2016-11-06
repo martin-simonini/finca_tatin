@@ -1,0 +1,18 @@
+.ime{
+	padding: 0;
+	margin: 1px;
+	margin: 1px;
+
+}
+
+body{
+	background: url(../../includes/wood.PNG) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h2{
+color: rgb(255,255,128);
+}

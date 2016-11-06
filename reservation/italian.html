@@ -1,0 +1,109 @@
+	<!Doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<!-- Bootstrap Core CSS -->
+			<link rel="stylesheet" href="../includes/bootstrap.min.css" type="text/css">
+
+			<!-- header css-->
+			<link rel="stylesheet" href="../includes/header_stylesheet.css" type="text/css">
+			<!-- Custom CSS -->
+			<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+
+
+			<title>Finca Tatin</title>
+
+		</head>
+		<body>
+		<div class="container-fluid">
+			<!-- Header-->
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
+					<div class="container">
+						<div class="navbar-header">
+							<a class="navbar-toggle">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</a>
+							<a class="navbar-brand" href="../welcome/italian.html">Finca Tatin</a>
+						</div>
+						<div id="slidemenu">
+
+							<ul class="nav navbar-nav">
+								<li><a href="../prices/italian.html">Prices</a></li>
+								<li><a href="../tour_de_belize/italian.html">Tour to Belize</a></li>
+								<li><a href="../tours/italian.html">Activities</a></li>
+								<li><a href="../gallery/italian.html">Foto Gallery</a></li>
+								<li><a href="../reservation/italian.html">Make a Reservation</a></li>
+								<li><a href="../contact/italian.html">Contact Us</a></li>
+								<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Languages <b class="caret"></b></a>
+								  <ul class="dropdown-menu">
+								   <li><a href="spanish.html"> Español </a></li>
+								   <li><a href="english.html"> English</a></li>
+								   <li><a href="french.html"> Français</a></li>
+								   <li><a href="#"> Italiano</a></li>
+								  </ul>
+								 </li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!---------------------------------------------------------------------------------->
+				<h1>Fare una prenotazione</h1>
+
+				<form name="resform" method="post" action"email.php">
+
+					<label for="name">Nome (Richiesto)</label>
+					<input type="text" name="name" maxlength="50" size="30">
+
+					<br>
+
+					<label for="email">E-Mail (Richiesto)</label>
+					<input type="email" name="email">
+
+					<br>
+
+					<label for="tel">Numero di telefono </label>
+					<input type="tel" name="tel">
+
+					<br>
+
+					<label for="arrival">Data di arrivo</label>
+					<input type="date" name="arrival">
+
+					<br>
+
+					<label for="people">Numero di persone</label>
+					<input type="number" name="people">
+
+					<br>
+
+					<label for="arrival_place">Vuoi essere arrivate da Rio Dulce o Puerto Barrios \ Livingston?</label>
+					<br>
+					<input type="radio" name="arrival_place" value="liv" class="rad">Puerto Barrios/Livingston<br>
+					<input type="radio" name="arrival_place" value="rio" class="rad">Rio Dulce<br>
+
+
+
+					<label for="comments">Commenti aggiuntivi</label><br>
+					<textarea cols="30" name="comments" rows="9"></textarea>
+
+					<br>
+
+					<input name="submit" type="submit" value="Send!" id="send">
+
+				</form>
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+			<!-- Latest compiled JavaScript -->
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<!--Header javascript code-->
+			<script src="C:\Users\martin\Desktop\Finca_Work\Finca_2.0\includes"></script>
+
+		</body>
+	</html>
