@@ -1,5 +1,5 @@
 body{
-	background: url(../../includes/wood.PNG) no-repeat center center fixed; 
+	background: url(../../includes/wood.PNG) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -14,7 +14,7 @@ body, html {
           text-align: center;
           font-family: helvetica;
       }
-       
+
       .tabs input[type=radio] {
           position: absolute;
           top: -9999px;
@@ -36,7 +36,7 @@ body, html {
       .tabs label {
           display: block;
           padding: 10px 20px;
-          border-radius: 2px 2px 0 0;         
+          border-radius: 2px 2px 0 0;
           font-size: 24px;
           font-weight: normal;
           font-family: 'Lily Script One', helveti;
@@ -53,12 +53,12 @@ body, html {
         background: rgba(255,255,255,0.5);
         top: 0;
       }
-       
+
       [id^=tab]:checked + label {
         background: rgb(255,255,128);
         top: 0;
       }
-       
+
       [id^=tab]:checked ~ [id^=tab-content] {
           display: block;
       }
@@ -81,7 +81,7 @@ body, html {
         -moz-animation-duration: 0.5s;
         animation-duration: 0.5s;
       }
-	  
+
 
 
 #home{
@@ -91,7 +91,7 @@ body, html {
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
-	
+
 }
 
 .menu > a{
@@ -112,12 +112,9 @@ body, html {
 	font-size: 1.5em;
 	float: center;
 	text-align: center;
-	
+
 }
-.text > h5{
-	font-size: 2em;
+.title{
+	font-size: 1.75em;
 	color: yellow;
 }
-
-
-
